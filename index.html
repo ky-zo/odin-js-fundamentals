@@ -8,7 +8,37 @@
 </head>
 <body>
     <script>
-        console.log("5")
+
+function add7(number){
+    return number + 7;
+}
+console.log(add7(3))
+
+function multiply(n1,n2){
+    return n1 * n2;
+}
+
+console.log(multiply(4,5))
+
+function capitalize(string){
+    let firstLetter = string.charAt(0).toUpperCase()
+    let restLetters = string.slice(1)
+    return firstLetter + restLetters
+}
+
+console.log(capitalize('kAmil'))
+console.log(capitalize('kamil'))
+console.log(capitalize('KAMAIL'))
+console.log(capitalize('aaaaaaa'))
+
+
+function lastLetter(string){
+    let len = string.length;
+    return string.charAt(len-1)
+}
+
+console.log(lastLetter('Kamil'))
+console.log(lastLetter('Kamil Test'))
     </script>
 </body>
 </html>
