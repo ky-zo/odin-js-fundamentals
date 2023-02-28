@@ -20,12 +20,12 @@ function getComputerChoice() {
     return computerChoice
 }
 
-function playerChoice() {
-    let choice = prompt("Rock, Paper, Scissors?")
-    choice = choice.toLowerCase()
-    choice === 'rock' || choice === 'paper' || choice === 'scissors' ? console.log(`Your choice: ${choice}`) : console.log(`${choice} is not possible. Try again`)
-    return choice
-}
+// function playerChoice() {
+//     let choice = prompt("Rock, Paper, Scissors?")
+//     choice = choice.toLowerCase()
+//     choice === 'rock' || choice === 'paper' || choice === 'scissors' ? console.log(`Your choice: ${choice}`) : console.log(`${choice} is not possible. Try again`)
+//     return choice
+//}
 
 function game(player,computer) {
     let result = '';
